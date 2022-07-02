@@ -34,6 +34,10 @@ The microcontroller at use is the ESP32-PICO-D4.
 
 ##  Working Principle
 The VNH5019 Motor Driver is used to control the 12V DC motor and led indicators to illuminate the light.
+
+##  Changing Speed
+The potentiometer is used to change the speed of rotation by sending PWM signals to the motor driver. The lowest potentiometer value 0 (PWM 0) will stop the motor and the highest value 4095 (PWM 255) will run the motor at full speed of around 6 RPM.
+
 </br>
 
 The device(s) can be debugged by connecting it to a computer and retriving the necessary information via the serial monitor.
