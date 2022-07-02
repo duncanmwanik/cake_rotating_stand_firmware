@@ -17,7 +17,7 @@ float current;
 
 void setup()
 {
-    // Serial.begin(115200);
+    Serial.begin(115200);
     pinMode(INA, OUTPUT);
     pinMode(INB, OUTPUT);
     pinMode(PWM, OUTPUT);
